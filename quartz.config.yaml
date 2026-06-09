@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: es-ES
-  baseUrl: "rhervel.github.io/obsi"
+  baseUrl: rhervel.github.io/obsi
   ignorePatterns:
     - private
     - templates
