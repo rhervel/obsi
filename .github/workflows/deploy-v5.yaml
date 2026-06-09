@@ -5,6 +5,16 @@ on:
     branches:
       - v5
 
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
 permissions:
   contents: read
   pages: write
