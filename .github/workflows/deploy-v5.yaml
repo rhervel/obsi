@@ -35,6 +35,8 @@ jobs:
         run: npm ci
 
       - name: Build Quartz
+      env:
+          BASE_URL: /obsi
         run: npx quartz build
 
       - name: Upload artifact
